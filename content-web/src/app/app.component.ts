@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   title = 'content-web';
   constructor(private appService: AppService) { }
   ngOnInit(): void {
-    //this.appService.getSettings();
+	console.log("Hello Derwai !! ");   
+ //this.appService.getSettings();
   }
 }
